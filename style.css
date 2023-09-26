@@ -1,0 +1,60 @@
+*{
+    font-size: 20px;
+}
+body{
+    background-color: gray;
+}
+.display{
+    
+    
+}
+.addBut{
+    width: fit-content;
+    margin: 5% auto;
+    
+}
+.addBut button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#form{
+    margin: auto;
+    /* border:2px solid red; */
+    width: min-content;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 5%;
+    background-color: white;
+}
+#submitDiv{
+    margin: 10px auto;
+    width: fit-content;
+    /* border: 2px solid green; */
+}
+.submit{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 300px) );
+    gap: 10px;
+    margin-top: 4%;
+    justify-content: center;
+}
+.readORnot{
+    height: fit-content;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
