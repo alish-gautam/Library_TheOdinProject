@@ -8,10 +8,12 @@ const addBut=document.querySelector(".addBut")
 
 const myLibrary=[]
 
-function Books(title,author,pages){
-    this.title=title
-    this.author=author
-    this.pages=pages
+class Books{
+    constructor(title,author,pages){
+        this.title=title
+        this.author=author
+        this.pages=pages
+    }
 }
 function addToLibrary(){
     let newbook=new Books(title.value,author.value,pages.value)
