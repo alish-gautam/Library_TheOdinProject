@@ -68,10 +68,6 @@ read.addEventListener("click",()=>{
    
 }
 
-
-
-
-
 addBut.addEventListener("click",(()=>{
     form.style.display="block";
 }))
